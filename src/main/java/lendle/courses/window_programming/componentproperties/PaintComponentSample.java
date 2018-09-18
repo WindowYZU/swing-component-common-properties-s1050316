@@ -23,6 +23,15 @@ public class PaintComponentSample extends JPanel{
     /**
      * @param args the command line arguments
      */
+    
+    
+    @Override
+    protected void paintComponent(Graphics g) {
+        int w = this.getWidth();
+        int h = this.getHeight();        
+        g.drawOval(0, 0, w, h);
+    }
+
     public static void main(String[] args) {
         // TODO code application logic here
         JFrame frame=new JFrame();

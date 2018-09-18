@@ -69,7 +69,7 @@ public class RevalidateSample extends javax.swing.JFrame {
         jPanel1.add(button);
         //試試看，應該加入 repaint? invalidate? revalidate?
         /////////////////////////////////////////////////
-        jPanell.revalidate(button);
+        jPanel1.revalidate();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

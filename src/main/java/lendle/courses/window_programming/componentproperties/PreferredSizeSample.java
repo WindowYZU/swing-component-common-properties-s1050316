@@ -34,7 +34,7 @@ public class PreferredSizeSample extends JPanel{
         frame.setSize(800, 600);
         frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         //試試看改成 BorderLayout
-        frame.setLayout(new FlowLayout());
+        frame.setLayout(new BorderLayout());
         ////////////////////////
         
         for(int i=0; i<10; i++){

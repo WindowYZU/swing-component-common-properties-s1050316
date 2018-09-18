@@ -16,7 +16,7 @@ public class BorderSample extends javax.swing.JFrame {
 
     /**
      * Creates new form BorderSample
-     */
+     */ hello
     public BorderSample() {
         initComponents();
     }
